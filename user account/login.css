@@ -1,0 +1,74 @@
+.login-box{
+    display: grid;
+    justify-content: center;
+    padding: 0rem 4rem;
+    margin-bottom: 8rem;
+    grid-gap: 0.8rem;
+
+}
+
+label{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+  
+}
+
+.user-input{
+    width: 24rem;
+    height: 2.4rem;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    border: 1.2px solid;
+    text-align: left;
+}
+
+
+.agreement-policy{
+    display: flex;
+    width: 60%;
+    height: 50%;
+   padding: 0;
+   margin-right: auto;
+}
+
+input.check-box-input {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 0.84rem;
+    color: var(--ternary-color);
+}
+
+.agreement-policy p{
+ font-weight: 500; 
+}
+
+.login-btn{
+    color: var(--off-white);
+    background-color: var(--secondary-color);
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border: 2px solid var(--secondary-color);
+    
+}
+
+.login-btn:hover{
+    color: var(--secondary-color);
+    background-color: var(--off-white);   
+}
+
+.create-account{
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+    
+}
+
+.create-account a{
+    text-decoration: none;
+}
+
+.create-account a:hover{
+    color: var(--black);
+}
