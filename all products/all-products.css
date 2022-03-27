@@ -1,6 +1,5 @@
 .products{
     display: grid;
-
 }
 
 .products h2{
@@ -46,7 +45,6 @@
 }
 
 .product-info{
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,8 +96,7 @@
     top: 2.5%;
     left: 90%;
     text-align: center;
-    border-radius: 50%;
-    
+    border-radius: 50%;    
 }
 
 
@@ -124,7 +121,6 @@
    .filter-components nav{
        
        margin: 1rem;
-     
        border-top: 1px solid black;
        border-radius: 0.5rem;
       
@@ -136,14 +132,10 @@
        padding: 0;
        margin: 0;
        gap: 2rem;
-      
-
    }
 
    .filter-components nav ul li{
-       width: 40%;
-      
-      
+       width: 40%; 
    }
 
   
@@ -153,9 +145,7 @@
        flex-direction: column;
        margin: 0;
        padding: 0;
-       border: 0;
-       
-      
+       border: 0;   
    }
 
    .filter-components nav ul li:hover{
@@ -165,12 +155,10 @@ color: var(--ternary-color);
 
 nav ul li ul li {
        display: none;
-      
    } 
 
    nav ul li:hover ul li{
-       display: block;
-       
+       display: block;   
    }
 
    
