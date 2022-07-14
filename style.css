@@ -203,7 +203,6 @@ small{
 
 .bestsellers{
 display: flex;
-flex-direction: column;
 padding: 1rem;
 gap: 30px;
 }
