@@ -1,7 +1,7 @@
 # Snack-it - healthy snack your way
 
 An E-commerce website / store to buy healthy snacks online from across the globe. Build using HTML, CSS, & Javascript!
- <h3><a href="https://the-css-companion.netlify.app">Check out Snack it</a></h3>
+ <h3><a href="https://snack-it.netlify.app">Check out Snack it</a></h3>
 
 
 # Key Features
