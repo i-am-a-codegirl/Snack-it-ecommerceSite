@@ -1,231 +1,636 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <script src="https://kit.fontawesome.com/e45a62e93a.js" crossorigin="anonymous"></script>
-    <title>Document</title>
-</head>
-<body>
-    
-    <div class="container">
-        <nav>
-            <div class="brand-name">
-        <h1 class="imp-text">Snack-IT!</h1>
-<small>Healthy Snacks Your Way!</small>
-</div>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Mukta:wght@300&family=Redressed&family=Roboto:wght@300&family=Satisfy&family=Shizuru&display=swap');
 
-<ul class="aside">
-    <li><a href="./user account/login.html">Login</a></li>
-    <li><a href="./cart/cart.html">Cart</a></li>
-    <li><a href="./wishlist/wishlist.html">Wishlist</a></li>
-</ul>
-        <ul class="main">
-            <li><a class="current-pg" href="./index.html">Home</a></li>
-            <li><a href="./all products/all-Products.html">All Products</a></li>
-            <li><a href="#">Shop by Category</a></li>
-        </ul> 
-    </nav>
-
-
-    <button type="button" class="btn btn-fab"><i class="fa fa-bars"> </i></button>
-
-    <div id="slider">
-      <figure>
-      <img src="./images/homeAnimation/Home.png"/>
-      <img src="./images/homeAnimation/Specials.png"/>
-      <img src="./images/homeAnimation/Home.png"/>
-      <img src="./images/homeAnimation/3.png"/>
-      <img src="./images/homeAnimation/Home.png"/>
-     
-      </figure>
-      </div>
-
-
-   <div class="bestsellers">
-<h1 class="bestseller-heading">BESTSELLERS</h1>
-
-
-    <div class="bestsellers-card">
-          <div class="card">
-            <div class="image-div">
-              <img class="card-image" src="./images/eat 3.jpg" alt="error" />
-            </div>
-            <div class="card-content">
-              <h2 class="card-heading">Nuts + Berries protien bar</h2>
-              <p class="author">Health bars</p>
-              <p class="content">
-                The snack it nuts and protien bars is low in calories and high in fibre plus protien. 
-                chill up your sweet cravings with this amazing chocolate bar.
-              </p>
-            </div>
-            <div>
-              <div class="card-actions">
-                <button class="card-btn">Buy</button>
-                <button class="card-btn">Add To Cart</button>
-                <i class="fas fa-heart"></i>
-                <i class="fas fa-share-alt"></i>
-                <i class="fas fa-ellipsis-v"></i>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="image-div">
-              <div class="overlay-image">
-                <img class="card-image" src="./images/eat2.jpg" alt="error" />
-                <div class="card-badge">New</div>
-              </div>
-            </div>
-            <div class="card-content">
-              <h2 class="card-heading">Chia seeds + Quinoa balls</h2>
-              <p class="author">Health Chunks</p>
-              <p class="content">
-                This chia seeds & quinoa balls are a good source of vitamins, minerals and protiens. Carry them along with you on trips, office, schools or long-drives. 
-              </p>
-            </div>
-            <div>
-              <div class="card-actions">
-                <button class="card-btn">Buy</button>
-                <button class="card-btn">Add To Cart</button>
-                <i class="fas fa-heart"></i>
-                <i class="fas fa-share-alt"></i>
-                <i class="fas fa-ellipsis-v"></i>
-              </div>
-            </div>
-          </div>
-          
-          <div class="card">
-            <div class="image-div">
-              <div class="overlay-image">
-                <img class="card-image" src="./images/eat11.jpg" alt="error" />
-                <div class="card-badge">Pack of Snacks</div>
-              </div>
-            </div>
-            <div class="card-content">
-                <h2 class="card-heading">Health Combo of 10 snacks</h2>
-              <p class="author">Health Combo</p>
-              <p class="content">
-                While if you want to stay active and feel strong for the whole week then we have combined 10 best snakcs just for you! Now munch and crunch guilt free. 
-              </p>
-            </div>
-            <div>
-              <div class="card-actions">
-                <button class="card-btn">Buy</button>
-                <button class="card-btn">Add To Cart</button>
-                <i class="fas fa-heart"></i>
-                <i class="fas fa-share-alt"></i>
-                <i class="fas fa-ellipsis-v"></i>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="image-div">
-              <img class="card-image" src="./images/eat5.jpg" alt="error" />
-            </div>
-            <div class="card-content">
-              <h2 class="card-heading">Jalepeno Masala Chickpeas</h2>
-              <p class="author">Protien Snacks </p>
-              <p class="content">
-                Our exclusive range of Jalepeno Chickpeas satisfies your taste buds while taking care of your heart and guts. As these are rich in fibre, Iron and protiens. 
-              </p>
-            </div>
-            <div>
-              <div class="card-actions">
-                <button class="card-btn">Buy</button>
-                <button class="card-btn">Add To Cart</button>
-                <i class="fas fa-heart"></i>
-                <i class="fas fa-share-alt"></i>
-                <i class="fas fa-ellipsis-v"></i>
-              </div>
-            </div>
-          </div>
-
-        
-    </div>
-</div>
-
-<div class="features">
-  <div class="content-feature">
-  <h1 class="imp-text">How we ensure you snack better?</h1>
-  <p>Snack- it! is always concerned about your well-being. We don't just put together a box of snacks; we go through a meticulous checklist to ensure that our snacks meet our high quality and taste standards. Click the link below to learn more about how your Snackible box is put together before it arrives at your door. Snacking smarter starts right here.</p>
-</div>
-  <img src="./images/munchMore.webp" alt="eat-better-">
-</div>
-
-<div class="snack-everywhere">
-  <h1 class="bestseller-heading">Snacks anytime , anywhere!</h1>
-  
- 
-<div class="content-here">
-  <div class="pick-1">
-    <img src="./images/snack.jpg" alt="Snacking while travelling" class="pick-1-img">
-    <p class="pick-1-con">TRAVEL SNACKS <br> While you are going for a trip or a world tour, or maybe a family marriage in another city, we have snacks to give you company on every travel.</p>
-  </div>
-
-  <div class="pick-2">
-  <img src="./images/heathyCereal.jpg" alt="" class="pick-2-img">
-  <p class="pick-2-con">KITTY PARTY READY</p>
-  </div>
-
-</div>
-
-<div class="content-here-2">
-  <div class="pick-4">
-    <img src="./images/lavendarPoordiridge.jpg" alt="" class="pick-4-img">
-    <p class="pick-4-con">WHILE AT WORK</p>
-    </div>
-  
-  <div class="pick-3">
-    <img src="./images/oatmeal.jpg" alt="Snacking while travelling" class="pick-3-img">
-    <p class="pick-3-con">PLAYING GAMES<br> While you are going for a trip or a world tour, or maybe a family marriage in another city, we have snacks to give you company on every travel.</p>
-  </div>
-</div>
-
-</div>
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+background-color: rgb(255 255 255);
+font-family: 'Redressed', cursive;
+font-family: 'Roboto', sans-serif;
 
 
 
-<footer>
+
+}
+
+*{
+    --primary-color : #22d3ee;
+    --secondary-color: #1d4ed8;
+    --ternary-color: #facc15;
+    --shadow-color : rgb(232, 232, 177);
+    --black: black;
+    --off-white: white;
+    --hover-color: blue;
+    --pink: hotpink;
+    --gray-discount-color: #a8a29e;
+    --move-to-another-page: lightgray;
+}
 
 
-<ul>
-  <li> <h3>The Really important things</h3></li>
-  <li>The story of Snack-it!</li>
-  <li>get in touch</li>
-  <li>terma & conditions</li>
-  <li>privacy policy</li>
-</ul>
+.imp-text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: cursive;
+    color: var(--ternary-color);
+    font-size: 2rem;
+
+
+}
+
+
+#slider{
+  overflow: hidden;
+  width: 60%;
+  margin: auto;
+  border: 1px solid var(--ternary-color);
+  border-radius: 2rem;
+  box-shadow: 1px 6px 10px var(--shadow-color);
+  margin-top: 1.2rem;
+}
+
+#slider figure{
+  position: relative;
+  width:500%;
+  margin: auto;
+  left: 0%;
+  animation: 25s slider infinite;
+
+}
+
+#slider figure img{
+  width: 20%;
+  float: left;
+  display: block;
+  height: 66vh;
+  border-radius: 2rem;
+
+}
+
+@keyframes slider {
+  0%{
+      left: 0;
+  }
+  20%{
+      left : 0%;
+  }
+  25%{
+      left: -100%;
+  }
+  45%{
+      left: -100%;
+  }
+  50%{
+      left: -200%;
+  }
+  70%{
+      left: -200%;
+  }
+  75%{
+      left: -300%;
+  }
+  95%{
+      left: -300%;
+  }
+  100%{
+      left: -400%;
+  }
+}
+
+
+.contanier{
+    display: grid;
+}
+
+nav{
+    display: flex;
+    background-color: var(--black);
+    color: var(--off-white);
+    gap: 20px;
+    width: 100vw;
+    flex-direction: column;
+    grid-area: nav;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+    max-height: 12.8rem;
+    box-shadow: 1px 10px 10px var(--shadow-color);
+
+
+}
+
+
+.current-pg{
+    border-bottom: 2.5px solid var(--ternary-color);
+}
+
+nav .aside{
+  margin-left: auto;
+  display: flex;
+  gap: 15px;
+  position: relative;
+  bottom: 35px;
+  padding-inline-end: 0.7rem;
+  flex-wrap: wrap;
+
+}
+
+li{
+
+    list-style: none;
+    padding: 0.5rem;
+    font-weight: bold;
+
+}
+li a{
+    text-decoration: none;
+    color: var(--off-white);
+
+}
+
+a:hover{
+    color: var(--primary-color);
+
+}
+
+.brand-name{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.brand-name :nth-child(2){
+    font-weight: 600;
+    font-size: 1rem;
+   position: relative;
+   top: -30px;
+
+
+}
+
+.brand-name :nth-child(1){
+
+    font-size: 3rem;
+
+
+}
+
+small{
+    font-style: oblique;
+}
+
+.main{
+    display: flex;
+    align-self: center;
+   position: relative;
+   top: -7.5em;
+   flex-wrap: wrap;
+}
+
+.photo{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    border: 2px solid wheat;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.photo img{
+    max-inline-size: 100%;
+  height: auto;
+  block-size: auto;
+  width: 98%;
+
+
+}
+
+/* .brand-text{
+    opacity: 0.8;
+} */
+
+.brand-text h1{
+    position: absolute;
+    bottom: 2rem;
+    color: var(--off-white);
+    font-size: xx-large;
+    background-color: var(--off-white);
+    font-family: cursive, monospace;
+    background: rgb(255, 165, 0, 0.8);
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+}
+
+
+.brand-text h2{
+    position: absolute;
+    bottom: 2rem;
+    color: var(--off-white);
+    font-size: large;
+    text-transform: uppercase;
+    font-family: cursive, monospace;
+    background: rgb(0, 165, 0, 0.8);
+    padding: 1rem;
+
+}
+
+.btn {
+    display: inline-flex;
+    cursor: pointer;
+    justify-content: center;
+
+    padding: 0.55rem 1rem;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+
+    border-radius: 0.375rem;
+    transition: var(--primary-color) 0.15s ease-in-out;
+    background-color: var(--ternary-color);
+    color: var(--black) ;
+    }
+.btn-fab {
+        border-radius: 50%;
+        padding: 1rem 1.15rem;
+        position: fixed;
+        left: 1390px;
+        top: 650px;
+
+    }
+
+.btn-fab:hover {
+        box-shadow: 1px 1px 5px var(--primary-color), -1px -1px 5px var(--primary-color);
+    }
+
+.bestsellers{
+display: flex;
+flex-direction: column;
+padding: 1rem;
+gap: 30px;
+}
+
+.bestseller-heading{
+padding: 1rem;
+margin: auto;
+border-bottom: 0.2rem solid var(--ternary-color);
+border-radius: 0.5rem;
+letter-spacing: 0.1rem;
+padding-top: 1.2rem;
+
+
+}
+
+.bestsellers-card{
+    display: flex;
+    gap: 20px;
+    padding: 1rem;
+}
+
+.card-heading {
+    margin-left: 0.3rem;
+    color: var(--black);
+  }
+
+  .author {
+    padding: 2px;
+    margin: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .card-content {
+    margin: 0.5rem;
+  }
 
 
 
-<ul>
-  <li><h3>The important stuff</h3></li>
-  <li>Shop by Category</li>
-  <li>All products</li>
-  <li>What's new?</li>
-  <li>Newsletter</li>
-</ul>
+  .card {
+      color: var(--off-white);
+    background-color: var(--ternary-color);
+    box-shadow: 1px 1px 1px var(--off-white);
+    width: 22rem;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .horizontal-card {
+    display: flex;
+    gap: 20px;
+    background-color: gray;
+    box-shadow: 1px 1px 1px var(--secondary-color);
+    flex-direction: column;
+    width: 100%;
+    border-radius: 1rem;
+    border: 1px solid var(--secondary-color);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .horizontal-img {
+    max-inline-size: 50%;
+    border-radius: 1rem;
+  }
+
+  .main-content {
+    display: flex;
+    gap: 20px;
+  }
+
+  .card-image {
+    max-inline-size: 100%;
+    block-size: auto;
+    height: 100%;
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .card-img{
+    height: 10rem;
+  }
+  .card-actions {
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem 1rem 1rem 1rem;
+    padding: 0.3rem;
+    cursor: pointer;
+
+  }
+
+  .card-btn {
+    border: none;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: var(--off-white);
+    cursor: pointer;
+    background-color: var(--ternary-color);
+  }
+
+  .card-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+
+  .fas {
+    color: var(--off-white);
+    background-color: var(--ternary-color);
+  }
+
+  .fas:hover {
+    color: var(--hover-color);
+  }
+
+  .card-btn:hover{
+      color: var(--hover-color);
+  }
+  /* .card-content{
+      text-shadow: 1px 1px var(--primary-color);
+  } */
+
+  .content{
+      font-weight: bold;
+      text-shadow: 0.5px 0.5px var(--primary-color);
+      color: var(--black);
+  }
+
+  .overlay-image {
+    position: relative;
+    width: 100%;
+  }
 
 
-<ul>
-  <li><h3>Get In Touch</h3></li>
-  <li>975600456</li>
-  <li>snack@it.com</li>
-  <li>Jaipur, Rajasthan</li>
-  <li>302017</li>
-  <li><a href=""><i class="fa-brands fa-instagram-square"></i></a></li>
-</ul>
 
-</footer>
+  .card-badge {
+    background-color: var(--ternary-color);
+    color: var(--off-white);
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 5rem;
+    position: absolute;
+    top: 2.5%;
+    left: 0%;
+    text-align: center;
+    border-radius: 10%;
+    box-shadow: 1px 1px var(--primary-color);
+
+  }
+
+
+  .card:hover{
+    box-shadow: 1px 4px 10px var(--ternary-color);
+  }
+  .snack-everywhere{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   height: 20%;
+   padding: 2.5rem;
+    }
+
+.content-here{
+padding-top: 1rem;
+display: flex;
+height: 15rem;
+gap: 20px;
+
+
+}
+
+
+.pick-1{
+  display: grid;
+  border-radius: 0.5rem;
+  width: 60%;
+}
+.pick-1 img,p{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.pick-1-img{
+ width: 100%;
+ height: 40%;
+  border-radius: 0.5rem;
+}
+
+.pick-1-con{
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  width: 70%;
+  color: var(--black);
+  font-weight: 600;
+  background: rgb(248,248,255, 0.7);
+  height: 20%;
+  border-radius: 0.5rem;
+
+
+}
+
+.pick-2{
+  display: grid;
+  width: 40%;
+
+}
+
+.pick-2 img,p{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.pick-2-img{
+  width: 100%;
+  height: 60%;
+  border-radius: 0.5rem;
+}
+
+.pick-2-con{
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  width: 70%;
+  height: 20%;
+  color: var(--black);
+  font-weight: 600;
+  background: rgb(248,248,255, 0.7);
+  border-radius: 0.5rem;
+ }
+
+ .content-here-2{
+  padding-top: 1rem;
+  display: flex;
+  height: 15rem;
+  gap: 20px;
+
+
+  }
 
 
 
-</div>
+.pick-3{
+  display: grid;
+  border-radius: 0.5rem;
+  width: 60%;
 
-</body>
-</html>
+
+}
+.pick-3 img,p{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.pick-3-img{
+ width: 100%;
+ height: 40%;
+  border-radius: 0.5rem;
+}
+
+.pick-3-con{
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  width: 70%;
+  color: var(--black);
+  font-weight: 600;
+  background: rgb(248,248,255, 0.7);
+  height: 20%;
+  border-radius: 0.5rem;
+
+
+}
+
+.pick-4{
+  display: grid;
+  width: 40%;
+
+}
+
+.pick-4 img,p{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.pick-4-img{
+  width: 100%;
+  height: 60%;
+  border-radius: 0.5rem;
+}
+
+.pick-4-con{
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  width: 70%;
+  height: 20%;
+  color: var(--black);
+  font-weight: 600;
+  background: rgb(248,248,255, 0.7);
+  border-radius: 0.5rem;
+ }
+
+.features{
+  display: grid;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.features h1{
+  width: 40%;
+}
+
+.features p{
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0.5rem;
+  text-shadow: 1px 1px 1px var(--off-white);
+  width: 70%;
+  height: 20%;
+  color: var(--black);
+  font-weight: 600;
+  background: rgb(248,248,255, 0.7);
+  border-radius: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+
+}
+
+.content-feature{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 3.8rem;
+}
+
+.features .content-feature,img{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.features img{
+justify-self: flex-end;
+z-index: -1;
+width: 60%;
+height: 60%;
+border-radius: 1rem;
+}
+
+footer{
+  background-color: var(--black);
+  color: var(--off-white);
+  display: flex;
+  gap: 20rem;
+  padding: 0.5rem;
+}
+
+footer h3{
+  color: var(--ternary-color);
+}
+
+footer i{
+  color: var();
+  background-color: var(--black);
+}
+
+
