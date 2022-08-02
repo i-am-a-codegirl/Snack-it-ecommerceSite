@@ -44,7 +44,7 @@ font-family: 'Roboto', sans-serif;
   border: 1px solid var(--ternary-color);
   border-radius: 2rem;
   box-shadow: 1px 6px 10px var(--shadow-color);
-  margin-top: 1.2rem;
+  margin-top: 1.6rem;
 }
 
 #slider figure{
