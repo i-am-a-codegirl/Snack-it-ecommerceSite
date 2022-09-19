@@ -129,7 +129,7 @@ margin-left: auto;
    }
 
    .price-tag{
-    font-size: 2ch;
+    font-size: 1.2rem;
     font-weight: 400;
     margin: 0;
     padding-top: 0.48rem;
@@ -180,7 +180,7 @@ margin-left: auto;
     display: flex;
     margin-right: auto;
     color: var(--off-white);
-    font-size: 2.4ch;
+    font-size: 1rem;
     font-weight: 600;
 }
 
