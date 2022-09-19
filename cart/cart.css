@@ -120,17 +120,16 @@ margin-left: auto;
        text-shadow: none;
        width: 80%;
    }
-
-   .cart-product-info{
+.cart-product-info{
        display: flex;
        margin-right: auto;
        padding: 0;
-       gap: 1.2rem;
+       gap: 0.8rem;
     
    }
 
    .price-tag{
-    font-size: 2.4ch;
+    font-size: 2ch;
     font-weight: 400;
     margin: 0;
     padding-top: 0.48rem;
