@@ -182,7 +182,7 @@ small{
 .main{
    display: flex;
    position: relative;
-   top: -7.5em;
+   top: -12.2rem;
    flex-wrap: wrap;
    margin-left: 2rem;
 }
